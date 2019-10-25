@@ -6,10 +6,10 @@
     render() {
       return (
         <div className="App">
-          <Button type="primary">Button</Button>
+          <Button type="primary" onClick="show">点击我</Button>
+          <image ></image>
         </div>
       );
     }
   }
-
   export default App;
